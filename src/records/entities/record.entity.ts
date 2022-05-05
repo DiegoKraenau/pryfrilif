@@ -8,7 +8,7 @@ export class Record {
   @Prop({ required: true })
   date: string;
 
-  @Prop({ required: true })
+  @Prop()
   userId: string;
 
   @Prop({ required: true, type: mongoose.Schema.Types.Mixed })

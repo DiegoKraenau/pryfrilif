@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
+import { devNull } from 'os';
 import { Record, RecordDocument } from './entities/record.entity';
 
 @Injectable()
@@ -11,8 +12,10 @@ export class RecordsService {
   ) {}
 
   async registerRecord(userId: string, date: string, form: any) {
+    const id = userId ? userId : null;
+
     const created = new this.recordModel({
-      userId,
+      userId: id,
       date,
       form,
     });
