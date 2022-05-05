@@ -13,7 +13,7 @@ async function bootstrap() {
     }),
   );
   await app.listen(process.env.PORT || 3000);
-  console.log('aea');
+  console.log('aedda');
 
   //Debug
   logger.log(`Server rendering in ${await app.getUrl()}`);
