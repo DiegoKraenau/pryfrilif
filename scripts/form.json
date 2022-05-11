@@ -230,6 +230,20 @@
                      "name": "Detección de malware o aplicaciones sospechosas desde la aplicación móvil de banca."
                   }
                ]
+            },
+            {
+               "name": "Controles de atención al cliente",
+               "controls": [
+                  {
+                     "name": "Implementación de sistema de registros de reclamos y consultas de clientes."
+                  },
+                  {
+                     "name": "Capacitación constante al personal para la atención a los usuarios."
+                  },
+                  {
+                     "name": "Uso de chatbot para consultas básicas o preguntas frecuentes de clientes."
+                  }
+               ]
             }
          ]
       }
